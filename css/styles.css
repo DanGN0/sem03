@@ -147,3 +147,26 @@ nav ul{
     background-color:rgb(0 0 0 / 70%);
     border-radius: 10px;
 }
+
+/* contenu */
+
+/* section*/ .contenu{ 
+    background-color: #e3e4e4;
+}
+
+div .places{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.places article{
+    padding:10px;
+    background-color: white;
+    border-bottom: #0E5EA1 solid 5px;
+
+    line-height: 160%;
+}
