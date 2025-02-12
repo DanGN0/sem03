@@ -76,6 +76,8 @@ h4{
     font-family: "Dosis", sans-serif;
     font-size: 24px;
     font-weight: bold;
+
+    margin: 0px;
 }
 
 
@@ -160,7 +162,6 @@ div .places{
     gap:20px;
 
     padding-top: 40px;
-    padding-bottom: 45px;
 }
 
 .places article{
@@ -168,5 +169,51 @@ div .places{
     background-color: white;
     border-bottom: #0E5EA1 solid 5px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
     line-height: 160%;
+}
+
+.places img{
+    margin-bottom: 32px;
+}
+
+
+.places a{
+    text-transform: uppercase;
+    color:black;
+    font-family: "Dosis", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width:140px;
+    text-align: center;
+
+    padding:8px;
+    border-radius: 5px;
+
+    background-color: #B7B7B7;  
+}
+
+.places a:hover{
+    background-color: #0E5EA1;
+    color:white;
+}
+
+.banniere{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+
+    padding: 10px; 
+    /* *jsp pquoi c'est necessaire? (mettre en commentaire pour voir le probleme que ca fait sinon) */
 }
